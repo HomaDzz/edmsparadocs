@@ -1,0 +1,215 @@
+@font-face {
+font-family: "yanonereg";
+src: url("../fonts/yanonereg/yanonereg.woff2") format("woff2");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "yanonereg";
+src: url("../fonts/yanonereg/yanonereg.woff") format("woff");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "upheaval";
+src: url("../fonts/upheaval/upheaval.woff2") format("woff2");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "upheaval";
+src: url("../fonts/upheaval/upheaval.woff") format("woff");
+font-style: normal;
+font-weight: normal;
+}
+
+#errors {
+	z-index: 999;
+	width: 100%;
+	background-color: red;
+	font-family: yanonereg;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	border: 3px solid gray;
+	border-radius: 3px;
+}
+
+#noerrors {
+	z-index: 999;
+	width: 100%;
+	background-color: limegreen;
+	font-family: yanonereg;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+#errct {
+	z-index: 999;
+	width: 100%;
+	background-color: red;
+	font-family: yanonereg;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	border: 3px solid gray;
+	border-radius: 3px;
+}
+
+#admnoerrors {
+	z-index: 999;
+	width: 100%;
+	background-color: limegreen;
+	font-family: yanonereg;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+#modnoerrors {
+	z-index: 999;
+	width: 100%;
+	background-color: limegreen;
+	font-family: yanonereg;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+#noerrcd {
+		z-index: 999;
+	width: 100%;
+	background-color: limegreen;
+	font-family: yanonereg;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+
+#noerrpd {
+		z-index: 999;
+	width: 100%;
+	background-color: limegreen;
+	font-family: yanonereg;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+
+
+#noerrct {
+		z-index: 999;
+	width: 100%;
+	background-color: limegreen;
+	font-family: yanonereg;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.inputfile {
+	width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label.forfileee {
+	font-family: yanonereg;
+	padding: 3px;
+	margin: 2px;
+	border-radius: 3px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgba(255,0,4,0.36);
+    display: inline-block;
+}
+
+.inputfile + label.forfileee:hover { 
+    background-color: rgba(255,230,0,0.4);
+}
+.inputfile + label.forfileee {
+	cursor: pointer;
+}
+
+label.forfileee span {
+	width: 250px;
+	height: 22px;
+}
+
+.changelang {
+	background: black;
+	width: 100px;
+	position: fixed;
+	z-index: 99997;
+	top: -32px;
+	right: 30px;
+	border-radius: 0 0 10px 10px;
+	transition: all 0.4s ease-out;
+}
+
+.changelang img {
+	opacity: 0.5;
+}
+
+.changelang img:hover {
+	opacity: 1;
+}
+
+.changelang:hover {
+	top: 5px;
+}
+
+.changelanginstall {
+	text-align: center;
+	background: black;
+	width: 100px;
+	position: fixed;
+	z-index: 99997;
+	top: -37px;
+	right: 30px;
+	border-radius: 0 0 10px 10px;
+	transition: all 0.4s ease-out;
+}
+
+.changelanginstall img {
+	opacity: 0.5;
+}
+
+.changelanginstall img:hover {
+	opacity: 1;
+}
+
+.changelanginstall:hover {
+	top: 0;
+}
+
+.langword {
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	font-family: yanonereg;
+}

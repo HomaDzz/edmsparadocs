@@ -1,0 +1,41 @@
+.spoiler-wrapper {
+	margin-top: 10px;
+}
+
+.spoiler a{
+	 font-size: 22px;
+	 color: rgba(179,179,179,1.00);
+	 text-decoration: none;
+	 transition: all 1s ease;
+}
+
+.spoiler a:hover {
+	 text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+	 color: white;
+}
+.spoiler-wrapper p {
+	font-family: yanonereg;
+	font-weight: bold;
+}
+ 
+.spoiler:hover {
+     cursor: pointer;
+}
+
+.spoiler a:focus {
+	 text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+	 color: white;
+}
+ 
+.spoiler:focus {
+     cursor: pointer;
+}
+ 
+.spoiler-text {
+	 padding:10px 94px;
+     margin: 20px 25px;
+	 font-size: 18px;
+	 border: 2px solid gray;
+	 border-radius: 3px;
+	 background-color: rgba(244,162,193,0.76)
+}

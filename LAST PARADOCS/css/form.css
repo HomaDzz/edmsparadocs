@@ -1,0 +1,287 @@
+#formlogo {
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	font-size: 36px;
+	font-family: yanonereg;
+}
+
+.close {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+
+.close:hover {
+	cursor: pointer;
+}
+
+#feedback-form {
+  padding: 24px 39px;
+  background: #F1F1F1;
+  border: 3px solid #4A936E;
+  border-radius: 5px;
+  text-align: center;
+  width: 410px;
+  display: table;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.border {
+  border-radius: 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+  box-shadow: 0 1px 1px rgba(255,255,255,.5), 0 1px 1px rgba(0,0,0,.1) inset;
+}
+
+#feedback-form .border:focus {
+  outline: none;
+  border-color: #abd9f1 #bfe3f7 #bfe3f7;
+}
+
+#feedback-form .border:hover {
+  outline: none;
+  border-color: #7eb4ea #97cdea #97cdea;
+}
+
+#feedback-form .border:not(:focus):not(:hover):valid {
+  opacity: .8;
+}
+
+#submitFF {
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+  background: rgb(212,75,56);
+  color: #fff;
+  width: 326px;
+  height: 40px;
+  transition: all 1s ease;
+}
+
+#submitFF:hover {
+  background: rgb(232,95,76);
+  box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+#submitFF:focus {
+  background: rgb(232,95,76);
+  box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+
+#submitFF:active {
+background: rgb(152,15,0);
+}
+
+#submitFFreg {
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+  background: rgb(212,75,56);
+  color: #fff;
+  width: 326px;
+  height: 40px;
+  transition: all 1s ease;
+  opacity: .5;
+  pointer-events: none;
+}
+
+#submitFFreg:hover {
+  background: rgb(232,95,76);
+  box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+#submitFFreg:focus {
+  box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+  background: rgb(232,95,76);
+}
+
+#submitFFreg:active {
+background: rgb(152,15,0);
+}
+
+.space {
+    display: block;
+    height: 20px;
+    border: 0;
+    background: transparent;
+    overflow: hidden;
+    clear: both;
+}
+
+.space2 {
+    margin: 20px;
+}
+
+#goreg {
+	float: left;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	transition: all 1s ease;
+}
+
+#golost {
+	float: right;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	transition: all 1s ease;
+}
+
+#golost:hover, #goreg:hover {
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+	color: white;
+}
+
+#golost:focus, #goreg:focus {
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+	color: white;
+}
+
+form a {
+	font-weight: bold;
+	font-size: 16px;
+	font-family: yanonereg;
+}
+
+.inputs {
+	width: 326.02px;
+	height: 32.9px;
+	border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #C0C0C0;
+    box-shadow: 0 1px 1px rgba(255,255,255,.5), 0 1px 1px rgba(0,0,0,.1) inset;
+    outline: none;
+    color: #000;
+    background: #fff;
+    display: inline-block;
+    text-align: center;
+    padding: 6px;
+    font-size: 18px;
+	transition: all 0.3s ease;
+}
+
+.inputs:hover {
+	border-color: rgb(212,75,56);
+}
+
+.inputs:focus {
+	border-color: rgb(212,75,56);
+}
+
+p, h5 {
+	user-select: none;
+}
+
+.inputs::-webkit-input-placeholder {
+	transition: all 0.3s ease;
+}
+
+.inputs:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+#checktext {
+	padding: 3px;
+	font-family: yanonereg;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#ruleslink {
+	text-decoration: underline;
+	color: red;
+	cursor: pointer;
+}
+
+#check:checked ~ #submitFFreg {
+  opacity: 1.0;
+  pointer-events: auto;
+}
+
+#resend {
+	height: 32.9px;
+	width: 30px;
+	background-image: url(../images/reload.svg);
+	background-repeat: no-repeat;
+	background-color:transparent;
+    background-position: center; 
+	float: right;
+	border: none;
+	transition: all 0.7s ease;
+}
+
+#resend:hover {
+    background-image: url(../images/reload_hover.svg);
+}
+
+#resend:focus {
+    background-image: url(../images/reload_hover.svg);
+}
+
+#change {
+	height: 32.9px;
+	width: 30px;
+	background-image: url(../images/change.png);
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-color:transparent;
+    background-position: center; 
+	float: right;
+	border: none;
+	transition: all 0.7s ease;
+}
+
+#change:hover {
+    background-image: url(../images/change_hover.png);
+}
+
+#change:focus {
+    background-image: url(../images/change_hover.png);
+}
+
+#what1, #what2 {
+	float: left;
+	width: 300px;
+}
+
+#what {
+	float: right;
+	background-image: url(../images/what.png);
+	width: 20px;
+	height: 32px;
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: all 0.7s ease;
+}
+
+#what:hover {
+	background-image: url(../images/what_hover.png);
+}
+
+#what:focus {
+	background-image: url(../images/what_hover.png);
+}
+
+#codeinput {
+	float: left;
+	width: 265px;
+}
+
+#formpopup {
+	background-color: rgba(255,221,0,0.6);
+	border: 2px solid #D83D3D;
+	border-radius: 3px;
+}
+
+#formpopup p {
+	padding: 10px;
+	font-family: yanonereg;
+}
